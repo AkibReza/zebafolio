@@ -1,0 +1,7 @@
+li > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+/* Add a negative margin to align the nested list with the parent list */
+ul.list-disc.ml-4 > li:before {
+  margin-left: -0.5rem;
+}
